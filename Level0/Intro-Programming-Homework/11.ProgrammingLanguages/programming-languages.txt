@@ -1,0 +1,69 @@
+	
+	Programming Language Rankings: January 2014
+
+    01.JavaScript
+    02.Java
+    03.PHP
+    04.C#
+    05.Python
+    06.C++
+    07.Ruby
+    08.C
+    09.Objective-C
+    10.CSS (new)
+    11.Perl
+    12.Shell
+    13.Scala
+    14.Haskell
+    15.R
+    16.Matlab
+    17.Clojure
+    18.CoffeeScript
+    19.Visual Basic
+    20.Groovy
+
+	Rankings by numbers of StackOverflow tagged questions and number of GitHub projects
+	More data: http://www.dataists.com/2010/12/ranking-the-popularity-of-programming-langauges/
+    
+    01. - JavaScript (JS) is a dynamic computer programming language.It is most commonly used as part 
+        of web browsers, whose implementations allow client-side scripts to interact with the user, 
+        control the browser, communicate asynchronously, and alter the document content that is displayed.
+        It is also being used in server-side programming, game development and the creation of desktop and 
+        mobile applications.
+        JavaScript is a prototype-based scripting language with dynamic typing and has first-class functions. 
+	Its syntax was influenced by C. JavaScript copies many names and naming conventions from Java, but the 
+	two languages are otherwise unrelated and have very different semantics. 
+
+    02. - Java is a computer programming language that is concurrent, class-based, object-oriented, and 
+	specifically designed to have as few implementation dependencies as possible. It is intended to let 
+	application developers "write once, run anywhere" (WORA), meaning that code that runs on one platform 
+	does not need to be recompiled to run on another.
+
+    03. - PHP is a server-side scripting language designed for web development but also used as a general-purpose 
+	programming language. PHP code is interpreted by a web server with a PHP processor module, which generates 
+	the resulting web page. PHP commands can be embedded directly into an HTML source document rather than 
+	calling an external file to process data. It has also evolved to include a command-line interface 
+	capability and can be used in standalone graphical applications. PHP is free software released under the 
+	PHP License. PHP can be deployed on most web servers and also as a standalone shell on almost every 
+	operating system and platform, free of charge.
+
+    04. - C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, 
+	functional, procedural, generic, object-oriented (class-based), and component-oriented programming 
+	disciplines.  C# is one of the programming languages designed for the Common Language Infrastructure. 
+	C# is built on the syntax and semantics of C++, allowing C programmers to take advantage of .NET and the 
+	common language runtime. The C# language is an object-oriented language that is aimed at enabling 
+	programmers to quickly build a wide range of applications for the Microsoft .NET platform. 
+	The goal of C# and the .NET platform is to shorten development time by freeing the developer from 
+	worrying about several low level plumbing issues such as memory management, type safety issues, building 
+	low level libraries, array boundschecking , etc. thus allowing developers to actually spend their time 
+	and energy working on their application and business logic instead. The previous sentence could be 
+	described as "a short description of the Java language and platform" if the words C# 
+	and the .NET platform were replaced with words Java and the Java platform.
+
+    05. - Python is a widely used general-purpose, high-level programming language. Its design philosophy 
+	emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of 
+	code than would be possible in languages such as C. The language provides constructs intended to enable 
+	clear programs on both a small and large scale.
+	Python supports multiple programming paradigms, including object-oriented, imperative and functional 
+	programming or procedural styles. It features a dynamic type system and automatic memory management and 
+	has a large and comprehensive standard library.

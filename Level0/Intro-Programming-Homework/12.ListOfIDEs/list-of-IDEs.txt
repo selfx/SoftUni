@@ -1,0 +1,51 @@
+
+	 An integrated development environment (IDE) or interactive development environment is a software 
+	application that provides comprehensive facilities to computer programmers for software development. 
+	An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern 
+	IDEs offer Intelligent code completion features.
+	 Some IDEs contain a compiler, interpreter, or both, such as Net Beans and Eclipse; others do not, 
+	such as SharpDevelop and Lazarus. The boundary between an integrated development environment and other 
+	parts of the broader software development environment is not well-defined. Sometimes a version control 
+	system and various tools are integrated to simplify the construction of a GUI. Many modern IDEs also 
+	have a class browser, an object browser, and a class hierarchy diagram, for use in object-oriented 
+	software development.
+
+	 Some IDEs are dedicated to a specific programming language, allowing a feature set that most closely 
+	matches the programming paradigms of the language. However, there are many multiple-language IDEs, 
+	such as Eclipse, ActiveState Komodo, IntelliJ IDEA, Oracle JDeveloper, NetBeans, Codenvy and 
+	Microsoft Visual Studio. 
+	 Xcode, Xojo and Delphi are dedicated to a closed language or set of programming languages.
+
+	Eclipce  - is the best alternative if you are not a big fan of Microsoft’s Visual Studio. 
+		The interface is a lot cleaner and concise than Visual Studio and the languages that are 
+		possible to use extend past the .Net Framework. Besides being the number on way to develop 
+		Android applications via the Android SDK, it is fully extensible to use languages such as Ruby, 
+		C, C++ and many many more.
+
+	NetBean  - is the number one alternative to Eclipse. This program is extensible and free, and it 
+		compiles code which is a bonus. When installing Netbeans it comes with a Java server called 
+		GlassFish that you could deploy on your computer for your testing environment.
+
+	Code::Blocks - is a free C, C++ and Fortran IDE built to meet the most demanding needs of its users. 
+		It is designed to be very extensible and fully configurable.
+
+	Eclipse  - is an integrated development environment (IDE). It contains a base workspace and an 
+		extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse 
+		can be used to develop applications. By means of various plug-ins, Eclipse may also be used 
+		to develop applications in other programming languages: Ada, C, C++, COBOL, Fortran, Haskell, 
+		JavaScript, Lasso, Perl, PHP, Python, R, Ruby (including Ruby on Rails framework), Scala, 
+		Clojure, Groovy, Scheme, and Erlang. 
+
+	Visual Studio  - has an advantage when it comes to programming. This IDE is mostly used by corporate 
+		programmers to produce .NET code. Sometimes people want to try the product without investing 
+		thousands of dollars first, so Microsoft has the Express editions for all of their products. 
+		This makes it perfect for casual users that want to hack out some code as a hobby or programmers 
+		who need a free solution to code in C#. Be warned though, if the application developed by someone 
+		using the express versions of Visual Studio takes off and starts making money it would not be 
+		surprising to see big brother step in and start asking questions.
+	
+	Notepad++
+
+	PHPed
+	
+	Vim 
