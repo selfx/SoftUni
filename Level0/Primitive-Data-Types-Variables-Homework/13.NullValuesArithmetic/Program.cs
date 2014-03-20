@@ -5,7 +5,7 @@
 
 using System;
 
-class Program
+class NullValue
 {
     static void Main()
     {
