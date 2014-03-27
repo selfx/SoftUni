@@ -31,7 +31,7 @@ class BitExchangeAdvanced
         bool qCheck = (q >= 0) && (q < 32); // check if q is in range of 32-bit  
         while (qCheck == false)
         {
-            Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
+            Console.Write("OUT OF RANGE\nEnter start bit position of first sequence q = ");
             integerCheck = uint.TryParse(Console.ReadLine(), out n);
         }
         Console.Write("Enter lenght of the sequences k = ");
@@ -43,13 +43,12 @@ class BitExchangeAdvanced
             integerCheck = uint.TryParse(Console.ReadLine(), out n);
         }
 
-
         bool overlapCheck = q > (p + k) || p > (q + k); // check if both sequences overlap
         while (overlapCheck == false)
         {
             Console.Write("OVERLAPPING\nEnter start bit position of first sequence p = ");
             p = int.Parse(Console.ReadLine());
-            pCheck = (p >= 0) && (p < 32); // check if p is in range of 32-bit  
+            pCheck = (p >= 0) && (p < 32);
             while (pCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
@@ -57,7 +56,7 @@ class BitExchangeAdvanced
             }
             Console.Write("Enter start bit position of second sequence q = ");
             q = int.Parse(Console.ReadLine());
-            qCheck = (q >= 0) && (q < 32); // check if q is in range of 32-bit  
+            qCheck = (q >= 0) && (q < 32);
             while (qCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
@@ -65,7 +64,7 @@ class BitExchangeAdvanced
             }
             Console.Write("Enter lenght of the sequences k = ");
             k = int.Parse(Console.ReadLine());
-            kCheck = (k + p) < 32 || (k + q) < 32; // check if k is in range of 32-bit  
+            kCheck = (k + p) < 32 || (k + q) < 32;
             while (kCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter lenght of the sequences k = ");
@@ -79,7 +78,7 @@ class BitExchangeAdvanced
         {
             Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
             p = int.Parse(Console.ReadLine());
-            pCheck = (p >= 0) && (p < 32); // check if p is in range of 32-bit  
+            pCheck = (p >= 0) && (p < 32);
             while (pCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
@@ -87,7 +86,7 @@ class BitExchangeAdvanced
             }
             Console.Write("Enter start bit position of second sequence q = ");
             q = int.Parse(Console.ReadLine());
-            qCheck = (q >= 0) && (q < 32); // check if q is in range of 32-bit  
+            qCheck = (q >= 0) && (q < 32);
             while (qCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter start bit position of first sequence p = ");
@@ -95,7 +94,7 @@ class BitExchangeAdvanced
             }
             Console.Write("Enter lenght of the sequences k = ");
             k = int.Parse(Console.ReadLine());
-            kCheck = (k + p) < 32 || (k + q) < 32; // check if k is in range of 32-bit  
+            kCheck = (k + p) < 32 || (k + q) < 32;
             while (kCheck == false)
             {
                 Console.Write("OUT OF RANGE\nEnter lenght of the sequences k = ");
@@ -104,7 +103,7 @@ class BitExchangeAdvanced
             outOfRangeCheck = (p + k) <= 32 || (q + k) <= 32;
         }
 
-        for (int i = 0; i < k; i++)     // "k" is the number of the loops we need
+        for (int i = 0; i < k; i++)     // "k" is the number of the loops
         {
             uint pBit = (n >> p) & 1;   // exrtact the value of bit {p, p+1,..}
             uint qBit = (n >> q) & 1;   // exrtact the value of bit {q, q+1,..}
@@ -131,7 +130,7 @@ class BitExchangeAdvanced
             p++;
             q++;
 
-            if (i == (k - 1))   //shows the result, when the loops finished
+            if (i == (k - 1))   // shows the result, when the loops finished
             {
                 Console.WriteLine(n);
             }
